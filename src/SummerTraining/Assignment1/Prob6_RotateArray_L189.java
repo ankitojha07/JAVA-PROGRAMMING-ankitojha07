@@ -2,7 +2,7 @@ package SummerTraining.Assignment1;
 
 import java.util.Scanner;
 
-public class Prob5_RotateArray_L189 {
+public class Prob6_RotateArray_L189 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Solution5 sol5 = new Solution5();
