@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Prob1MaxGap {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Solution1 sol = new Solution1();
+        Solution1 sol1 = new Solution1();
 
         System.out.print("Enter size of array : ");
         int n= sc.nextInt();
@@ -16,7 +16,7 @@ public class Prob1MaxGap {
             arr[i] = sc.nextInt();
         }
 
-        System.out.println(sol.maximumGap(arr));
+        System.out.println(sol1.maximumGap(arr));
     }
 }
 class Solution1 {
