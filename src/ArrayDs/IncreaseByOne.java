@@ -1,4 +1,4 @@
-package Arrays;
+package ArrayDs;
 public class IncreaseByOne {
     static int[] solution(int[] arr){
         int n =arr.length;
