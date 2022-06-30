@@ -27,6 +27,15 @@ class QueueImplement{
         front = front.next;
         return result;
     }
+    public void traverseQueue()  {
+        if (front==null) {
+            System.out.println("Empty Queue!");
+        }
+        while (front.next!=null){
+            System.out.print(front.data + " ");
+            front=front.next;
+        }
+    }
 }
 public class QueueBasics {
     public static void main(String[] args) throws Exception {
@@ -35,7 +44,7 @@ public class QueueBasics {
         qi.enqueue(9);
         qi.enqueue(12);
         qi.enqueue(66);
-
+        qi.traverseQueue();
         System.out.println(qi.dequeue());
     }
 }
