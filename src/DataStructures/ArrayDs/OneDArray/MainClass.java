@@ -10,6 +10,7 @@ public class MainClass {
 
 //        System.out.println("Printing the largest element in array : "+LargestElementArray.largestElem(arr1));
 //        System.out.println("Find Median Sorted Arrays result : "+FindMedianSortedArrays_L4.findMedianSortedArrays(arr1,arr2));
-        CheckIfArrayIsSorted.isSorted(arr1);
+//        CheckIfArrayIsSorted.isSorted(arr1);
+        System.out.println("Second largest is : " + SecondLargestElemArray.secLarge(arr1));
     }
 }
