@@ -34,8 +34,8 @@ class Solution5{
             k+=nums.length;
         }
         reverseUsingArray(nums,0,nums.length-1-k); // 1st half rotate
-        reverseUsingArray(nums,nums.length-k,nums.length-1); // 1st half rotate
-        reverseUsingArray(nums,0,nums.length-1); // 1st half rotate
+        reverseUsingArray(nums,nums.length-k,nums.length-1); // 2nd half rotate
+        reverseUsingArray(nums,0,nums.length-1); // 3rd half rotate
 
     }
 
