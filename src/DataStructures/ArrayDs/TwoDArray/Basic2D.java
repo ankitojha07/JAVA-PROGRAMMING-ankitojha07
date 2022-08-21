@@ -9,5 +9,8 @@ public class Basic2D {
         nameArray[1][0] = 3;
         nameArray[1][1] = 4;
         System.out.println(Arrays.deepToString(nameArray));
+
+        String strArray[][] = {{"Ankit","Binod"},{"Nikhil","Bikas"}};
+        System.out.println(Arrays.deepToString(strArray));
     }
 }
