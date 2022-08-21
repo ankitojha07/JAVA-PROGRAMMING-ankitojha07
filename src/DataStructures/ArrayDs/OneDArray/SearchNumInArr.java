@@ -16,8 +16,8 @@ public class SearchNumInArr {
         }
         System.out.print("Enter number to search : ");
         target = sc.nextInt();
-        int ans = sna.search(arr,target);
-        System.out.println("Element found at position : "+ans+1);
+        int ans = sna.search(arr,target)+1;
+        System.out.println("Element found at position : "+ans);
     }
     public int search(int[] arr, int num){
         for (int i=0;i< arr.length;i++){
