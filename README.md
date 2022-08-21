@@ -14,4 +14,3 @@ Ankit Ojha Leetcode Submission Chart Till June 2022
 <br>
 2- [Running sum of 1D Array](https://github.com/ankittojha/JAVA-DSA-ankittojha/blob/master/src/Arrays/RunningSum1DArray.java) Array Problem
 <br>
-3- 
