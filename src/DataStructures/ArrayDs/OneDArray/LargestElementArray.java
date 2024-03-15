@@ -22,6 +22,6 @@ public class LargestElementArray {
             arr1[i] = sc.nextInt();
         }
         int largeElement = largestElem(arr1);
-        System.out.println("Largest element of the array is : "+largeElement);
+        System.out.println("Largest element of the array is this: "+largeElement);
     }
 }
